@@ -34,4 +34,8 @@
 El ejercicio se ha mantenido en el mismo repositorio para permitir visualizar tanto el resultado del Ejercicio 1 como su despliegue en línea, además de facilitar el seguimiento desde este README.
 
 
-![alt text](Screenshot_1.png) 
+![alt text](Screenshot_1.png)
+
+![alt text](src/assets/Screenshot_2.png)
+
+![alt text](src/assets/Screenshot_3.png)
