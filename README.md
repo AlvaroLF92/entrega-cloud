@@ -24,3 +24,5 @@
     git add .
     git commit -m "Deploy manual a GitHub Pages"
     git push -u origin gh-pages
+
+- Podemos comprobar que el despliegue manual fué un éxito en la direccion : https://alvarolf92.github.io/entrega-cloud/    
