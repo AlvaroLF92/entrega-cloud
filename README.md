@@ -26,3 +26,9 @@
     git push -u origin gh-pages
 
 - Podemos comprobar que el despliegue manual fué un éxito en la direccion : https://alvarolf92.github.io/entrega-cloud/    
+
+- Se ha configurado un archivo deploy.yml en .github/workflows/ y un script en package.json para facilitar el despliegue automático. Esto permite desplegar mediante:
+
+- npm run deploy ( O automáticamente tras hacer push o merge a la rama main. ).
+
+El ejercicio se ha mantenido en el mismo repositorio para permitir visualizar tanto el resultado del Ejercicio 1 como su despliegue en línea, además de facilitar el seguimiento desde este README.
