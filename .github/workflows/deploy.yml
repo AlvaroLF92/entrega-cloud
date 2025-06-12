@@ -3,15 +3,11 @@ name: Deploy entrega-cloud to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: entrega-cloud
 
     steps:
       - name: Checkout repo
@@ -32,4 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: entrega-cloud/dist
+          publish_dir: dist
